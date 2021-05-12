@@ -1,0 +1,81 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+
+                                   
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: crimson;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .logo a span{
+    color: crimson;
+    transition: all 0.3s ease;
+                                               
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    display: block;
+    color: crimson;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+.contact{
+    padding: 4%;
+    height: 400px;
+}
+.col-md-3{
+    background:red;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background:red;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+} 
